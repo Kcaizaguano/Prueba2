@@ -30,5 +30,16 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,MainActivity_1.class);
             startActivity(intent);
         }
+
+
+        String usuario2 = editTextUsuario.getText().toString();
+        String contraseña2 = editTextContraseña.getText().toString();
+
+        if (usuario2.equals("kevin") && contraseña2.equals("kevin")){
+            Intent intent = new Intent(this,MainActivity_1.class);
+            startActivity(intent);
+        }
+
+
     }
 }
